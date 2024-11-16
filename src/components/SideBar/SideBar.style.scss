@@ -1,0 +1,25 @@
+.nav {
+    background-color: var(--primary-black-color);
+}
+
+.side-bar {
+    height: 100vh;
+    flex: .1;
+    position: sticky;
+}
+
+.nav--content {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    height: 95%;
+    justify-content: space-between;
+}
+
+.nav--content:last-child {
+    justify-self: flex-end;
+}
+
+
+
+

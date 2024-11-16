@@ -1,0 +1,24 @@
+.assignees {
+    justify-self: end;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    margin-right: 1.2rem;
+}
+
+.assignee {
+    border: solid 3px #f8f9fa;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background-color: blue;
+    margin-right: -1.2rem;
+}
+
+.n {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #adb5bd;
+}

@@ -1,0 +1,13 @@
+.btn {
+    background-color: var(--primary-color);
+    padding: .5rem 1rem;
+    border-radius: 50px;
+    border: solid 2px transparent;
+    color: #dee2e6;
+    transition: background-color .2s ease-in;
+}
+
+.btn:hover {
+    background-color: var(--primary-color-light);
+    border: solid 2px var(--primary-color);
+}

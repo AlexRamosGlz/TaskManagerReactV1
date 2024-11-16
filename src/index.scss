@@ -1,0 +1,34 @@
+@import './components/Container/Container.component.style.scss';
+@import './components/modal/Modal.component.style.scss';
+@import './components/TaskBox/TaskBox.component.style.scss';
+@import './components/Assignees/Assignees.style.scss';
+@import './components/ModalContent/ModalContent.style.scss';
+@import './components/Button/Button.style.scss';
+
+@import './components/SideBar/SideBar.style.scss';
+@import './components/SideBar/SideBarOption/SideBarOption.style.scss';
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --primary-color: #4263eb;
+    --primary-color-light: #748ffc;
+    --primary-black-color: #343a40;
+}
+
+body {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.grid--5 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}

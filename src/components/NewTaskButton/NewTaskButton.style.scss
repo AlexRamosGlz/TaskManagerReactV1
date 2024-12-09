@@ -1,0 +1,21 @@
+.add-task {
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    background-color: white;
+    border-radius: 50px;
+    border: none;
+    opacity: .7;
+    transition: opacity .3s ease-in;
+
+    img {
+        height: 2.5rem;
+        border-radius: 50%;
+        stroke: blue;
+    }
+}
+
+.add-task:hover {
+    opacity: 1;
+}
+

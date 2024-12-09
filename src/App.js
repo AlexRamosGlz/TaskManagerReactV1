@@ -4,6 +4,7 @@ import Modal from "./components/modal/Modal.component";
 
 import SideBar from "./components/SideBar/SideBar.component";
 import logo from "./logo.svg";
+import { NewTaskButton } from "./components/NewTaskButton/NewTaskButton.component";
 
 function App() {
   const arr = new Array(5).fill(0);
@@ -19,6 +20,7 @@ function App() {
         </div>
       </Container>
       <Modal />
+      <NewTaskButton />
     </>
   );
 }

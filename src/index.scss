@@ -4,6 +4,7 @@
 @import './components/Assignees/Assignees.style.scss';
 @import './components/ModalContent/ModalContent.style.scss';
 @import './components/Button/Button.style.scss';
+@import './components/NewTaskButton/NewTaskButton.style.scss';
 
 @import './components/SideBar/SideBar.style.scss';
 @import './components/SideBar/SideBarOption/SideBarOption.style.scss';
@@ -31,4 +32,8 @@ body {
 .grid--5 {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+}
+
+.box-shadow {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
 }

@@ -1,8 +1,14 @@
-import { createContext, useState } from "react";
+import { act, createContext, useState } from "react";
 
 const TaskContext = createContext();
 
 const BASE_URL = `http://localhost:3000/tasks/tsk`;
+
+function reducer(state, action) {
+  switch(action.type) {
+    case "task/create": return {...state};
+  }
+}
 
 function TaskProvider({ children }) {
   const [tasks, setTasks] = useState([]);

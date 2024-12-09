@@ -5,6 +5,7 @@ import Button from "./components/Button/Button.component";
 import Modal from "./components/modal/Modal.component";
 
 import { useReducer } from "react";
+import { NewTaskButton } from "../NewTaskButton/NewTaskButton.component";
 
 const initialState = {
   modal: false,
@@ -28,6 +29,7 @@ function AppLayout() {
       <Container />
       <Modal modal={modal} dispatch={dispatch} />
       <Button onClick={() => dispatch({ type: "toogleModal" })}>Open</Button>
+      <NewTaskButton />
     </TaskProvider>
   );
 }
